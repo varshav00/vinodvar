@@ -1,0 +1,170 @@
+html {
+    height: 100%;
+}
+
+body {
+    /* background-color: #2F3035; */
+    /* background-color: grey; */
+    background-color: rgb(49, 22, 2);
+    /* background-image: url(images/bubbles-wallpaper-3.jpg); */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    background-color: burlywood;
+    /* height: 100%; */
+}
+
+header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    /* background-color: aquamarine; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: black; */
+}
+
+.space {
+    /* height: 28px; */
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav {
+    /* background-color: aqua; */
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+main {
+    /* background-color: burlywood; */
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    /* height: 450px; */
+    width: 1024px;
+    padding-top: 50px;
+}
+
+.half {
+    margin-left: 110px;
+    margin-right: 100px;
+    width: 512px;
+}
+
+footer {
+    /* height: 118px; */
+    /* height: 100%; */
+    /* height: 200px; */
+    /* border-collapse: collapse; */
+    /* align-self: flex-end; */
+    /* background-color: cornsilk; */
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    background-color: burlywood;
+
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    opacity: 0.7;
+}
+
+img {
+
+    position: relative;
+    
+    left: 600px;
+
+    right: 50px;
+    
+
+    bottom: 330px;
+    border-radius: 20%;
+}
+
+h1 {
+    /*color: cyan;
+    font-family: cursive;*/
+    /* padding-left: 250px; */
+    text-align: center;
+    /* padding-left: 500px; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 50px; */
+    color: white;
+    font-weight: normal;
+}
+
+h2 {
+    /*color: cyan;*/
+    padding-left: 50px;
+    padding-right: 50px;
+    /* font-family: cursive; */
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.media {
+    /* position: absolute; */
+    /* padding: 20px; */
+    font-size: 30px;
+    /* width: 50px; */
+    /* text-align: center; */
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 2px;
+    /* text-align: center; */
+    text-decoration: none;
+  }
+
+  /* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-linkedin {
+    /* background: #007bb5; */
+    color: white;
+  }
+
+.fa-github{
+    color:white;
+}
+
+
+/* li {
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .5s;
+} */
